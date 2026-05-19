@@ -10,7 +10,7 @@ def arith():
         # Ensure those numbers are integers
         number1 = int(number_input1)
         number2 = int(number_input2)
-        # Loop to determine if numbers multiplied are less than or equal to 1000
+        # Loop to determine if numbers multiplied are less than or equal to 1000 and return the product
         if number1 * number2 <= 1000:
             print(number1 * number2)
         else: #print the sum of two numbers if greater than or equal to 1000
